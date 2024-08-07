@@ -1,17 +1,23 @@
-function TodoITEM1(){
-    return 
-    <div class="row">
+function TodoITEM2(){
+  let todoName="Go to college";
+  let todoDate="4/10/2023";
+    return (
+    
+      <div class="container">
+      <div class="row kg-row" >
         <div class="col-6">
-          Go to college
+        {todoName}
         </div>
         <div class="col-4">
-          4 / 10 /2023
+          {todoDate}
         </div>
         <div class="col-2">
         <button type="button" class="btn btn-danger">Delete</button>
         </div>
       </div>
-
+      </div>
+    );
 }
-export default TodoITEM;
+export default TodoITEM2;
+    
     
